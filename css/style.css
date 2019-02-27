@@ -1,0 +1,162 @@
+@charset "utf-8";
+a:not([class*=uk-button]):hover, a:active, .color_primary, .color_primary>*, .hover_color_primary:focus, .hover_color_primary:hover, ul.hover_color_primary>li>a:focus, ul.hover_color_primary>li>a:hover {color: #3093CC !important;}
+.color_primary_dark {color: #003466 !important;}
+.link a:link, .link a:visited, .link a:focus, .uk-breadcrumb a:link, .uk-breadcrumb a:visited, .uk-breadcrumb a:focus, a.color_primary:hover, a.color_primary:hover>*, .color_primary a:hover {color: #2d8abf !important;}
+
+.color_secondary, .color_secondary>*, .hover_color_secondary:focus, .hover_color_secondary:hover, ul.hover_color_secondary>li>a:focus, ul.hover_color_secondary>li>a:hover, nav:not(.bg_white).color_secondary>.uk-button-dropdown>a.active, nav.color_secondary .uk-button-dropdown.uk-open>a, nav.color_secondary .uk-button-dropdown>a:hover {color: #f9a04c !important;}
+a.color_secondary:hover, a.color_secondary:hover>*, .color_secondary a:hover {color: #d66800 !important;}
+
+.bg_hover_white_color_primary:focus, .bg_hover_white_color_primary:hover {color: #3093CC !important; background-color: white;}
+.bg_hover_white_color_secondary:focus, .bg_hover_white_color_secondary:hover {color: #ee7502 !important; background-color: white;}
+
+.bg_primary, .btn_primary, .btn_hover_primary.uk-active, .btn_hover_primary:hover, .hover_bg_primary:hover, .hover_primary li>a:hover, .hover_primary li.uk-active>a, ul.hover_bg_primary>li>a:focus, ul.hover_bg_primary>li>a:hover, .uk-block-primary, .uk-pagination>li.uk-active span, ol.listDecimalRow.badgeRankings>li:before, .monthly-today .monthly-day-number, .monthly .monthly-header-title-date, .monthly .monthly-header-title-date:hover {color: white !important; background-color: #3093CC !important;}
+.bg_secondary, .btn_secondary, .btn_hover_secondary.uk-active, .btn_hover_secondary:hover, .hover_bg_secondary:hover, .hover_secondary li>a:hover, .hover_secondary li.uk-active>a, nav.bg_secondary .uk-dropdown a, ul.hover_bg_secondary>li>a:focus, ul.hover_bg_secondary>li>a:hover, .uk-block-secondary, ol.listDecimalRow.badgeRankings.badgeRankingsSecondary>li:before {color: white !important; background-color: #ee7502 !important;}
+
+.btn_primary:focus, .btn_primary:hover, .btn_primary.selected {background-color: #2d8abf !important;}
+.btn_secondary:focus, .btn_secondary:hover {background-color: #d66800 !important;}
+
+.fontsize li>a {color: #3093CC !important; border: 1px solid #3093CC;}
+.fontsize li.uk-active>a, .fontsize li.uk-open>a, .fontsize li>a:focus, .fontsize li>a:hover {background: #3093CC !important; border-color: #3093CC; color: white !important;}
+
+.border_primary {border-color: #3093CC;}
+.border_secondary {border-color: #ee7502;}
+
+.bg_cover_gradient {background-image: url(../img/blank.gif);}
+
+.monthly .monthly-header-title-date, .monthly .monthly-header-title-date:hover {border: 1px solid #3093CC!important;}
+.monthly-event-list .monthly-today .monthly-event-list-date {color: #3093CC; font-weight: bolder;}
+
+.listTabs .uk-list {border-top: 1px solid #E5E5E5;}
+.listTabs a {line-height: 30px; padding: 5px 10px;}
+.listTabs a:hover, .listTabs .uk-active a, .nav_side a:hover, .nav_side .uk-active a {color: white !important; background-color: #3093CC; text-decoration: none;}
+.listTabs .uk-grid-divider>li, .listTabs .uk-grid-divider>li:last-child:nth-child(odd) {border-right: 1px solid #E5E5E5;}
+.listTabs .uk-grid-divider>li:nth-child(even), .listTabs .uk-grid-divider>li:last-child {border-right: 0;}
+.listTabs .uk-grid-divider>li:last-child:nth-child(odd) a {border-bottom: 0;}
+.listTabs .uk-nav {border: 1px solid #E5E5E5; border-bottom: 2px solid #dcdada;}
+.listTabs .uk-nav>li {border-bottom: 1px solid #E5E5E5;}
+.listTabs .uk-nav>li:last-child:nth-child(odd) {border-bottom: none;}
+.listTabs .uk-nav a {color: #3093CC; padding: 5px 15px;}
+.listTabs.listIconIndent .uk-nav a {padding-left: 35px; text-indent: -20px;}
+.listTabs.listIconIndent .uk-nav a span {text-indent: 0;}
+.listTabs .uk-nav>li:not(.uk-active):not(.uk-parent)>a, .listTabs .uk-nav>li:not(.level3) li:not(.uk-active):not(.uk-parent)>a, .listTabs .uk-nav>li.level3 li li:not(.uk-active):not(.uk-parent)>a {padding-left: 25px;}
+.listTabs .uk-nav>li.uk-open>a, .nav_side .uk-nav>li.uk-open>a {background: #c1ced4  !important; color: white !important;}
+.listTabs .uk-active>a, .listTabs .uk-nav-sub>li[aria-expanded="false"] li[aria-expanded="true"]>a, .listTabs li.level3 .uk-nav-sub>li[aria-expanded="false"] li[aria-expanded="true"]>a, .listTabs .uk-nav>li.level3 li li>a {color: #3093CC !important; background-color: transparent;}
+.listTabs .uk-nav li a:hover, .listTabs .uk-nav>li.uk-active>a, .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"]>a, .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="true"]>a, .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover, .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover
+.nav_side .uk-nav li a:hover, .nav_side .uk-nav>li.uk-active>a {background: #3093CC; color: white !important;}
+.listTabs .uk-nav>li.level3 li>a, .listTabs .uk-nav>li.level3[aria-expanded="true"] li[aria-expanded="true"]>a {background: #ee7502; color: white !important;}
+.listTabs.listTabs_grey .uk-nav a {color: #a9afb1;}
+.listTabs.listTabs_grey .uk-nav li a:hover, .listTabs.listTabs_grey .uk-nav>li.uk-active>a, .listTabs.listTabs_grey .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"]>a, .listTabs.listTabs_grey .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="true"]>a, .listTabs.listTabs_grey .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover, .listTabs.listTabs_grey .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover {background: #cfd8dc;}
+.listTabs.listTabs_secondary .uk-nav a {color: #ee7502;}
+.listTabs.listTabs_secondary .uk-nav li a:hover, .listTabs.listTabs_secondary .uk-nav>li.uk-active>a, .listTabs.listTabs_secondary .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"]>a, .listTabs.listTabs_secondary .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="true"]>a, .listTabs.listTabs_secondary .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover, .listTabs.listTabs_secondary .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover
+.nav_side.nav_side_secondary .uk-nav li a:hover, .nav_side.nav_side_secondary .uk-nav>li.uk-active>a {background: #ee7502;}
+
+header.uk-active {box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;}
+.uk-slideshow>li>.uk-cover-background {height: 350px;}
+#chart {margin-top: 10%; margin-bottom: 10% !important;}
+#chart svg {transform: scale(1.2);}
+
+footer, footer a {color: white !important;}
+
+/* Uikit Style
+---------------------------------------------------- */
+
+.uk-pagination>.uk-active>span, .uk-pagination>li>a:focus, .uk-pagination>li>a:hover, .uk-nav-dropdown>li>a:focus, .uk-nav-dropdown>li>a:hover, .uk-subnav-pill a:hover, .uk-subnav-pill>.uk-active>*, .uk-tab.tab_primary li.uk-active>a, .uk-tab>li.uk-open>a, .uk-tab>li>a:focus, .uk-tab>li>a:hover {background-color: #3093CC; color: #fff !important;}
+.pagination_secondary.uk-pagination>.uk-active>span, .pagination_secondary.uk-pagination>li>a:focus, .pagination_secondary.uk-pagination>li>a:hover, .subnav_secondary.uk-subnav-pill a:hover, .subnav_secondary.uk-subnav-pill>.uk-active>*, .uk-tab.tab_secondary li.uk-active a, .uk-nav.nav_secondary li a:focus , .uk-nav.nav_secondary li a:hover, .uk-nav.nav_secondary li.uk-active a {background-color: #ee7502 !important; color: #fff !important;}
+.uk-tab>li>a, .uk-subnav:not(.uk-subnav-pill)>*>:focus, .uk-subnav:not(.uk-subnav-pill)>*>:hover, .uk-subnav:not(.uk-subnav-pill)>.uk-active>*, .uk-subnav:not(.uk-subnav-pill) .uk-open>a {color: #3093CC; transition: none;}
+
+/* End Uikit Style
+---------------------------------------------------- */
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ End of Style */
+
+/*uk-small*/
+@media (min-width:480px) {
+}
+
+/*bs-sm*/
+@media (min-width: 576px) {
+}
+
+/*uk-medium, bs-md*/
+@media (min-width:768px) {
+.listTabs .uk-grid-divider.uk-grid-width-medium-1-3>li:nth-child(even) {border-right: 1px solid #E5E5E5;}
+}
+
+/*uk-large*/
+@media (min-width:960px) {
+.listTabs .uk-grid-divider.uk-grid-width-large-1-1>li:nth-child(even) {border-right: 0;}
+.bg_primary .max_height:after {background: linear-gradient(to top, #3093CC 85%, rgba(255, 255, 255, 0) 100%);}
+.bg_secondary .max_height:after {background: linear-gradient(to top, #ee7502 85%, rgba(255, 255, 255, 0) 100%);}
+}
+
+/*bs-lg*/
+@media (min-width: 992px) {
+}
+
+/*bs-xl*/
+@media (min-width: 1200px) {
+}
+
+/*uk-xlarge*/
+@media (min-width:1220px) {
+}
+
+@media (min-width:1350px) {
+}
+
+/* Portrait */
+@media screen and (orientation:portrait) {
+}
+/* Landscape */
+@media screen and (orientation:landscape) {
+}
+
+/* ----------- IE10+ ----------- */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.height_fixIE {height: 100%;}
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+}
